@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Form</title>
+  </head>
+  <body>
+    <center>
+      <h1><u>Contact Form</u></h1>
+    </center>
+
+    <form action="mailto:adeshsharmalucr@gmail.com" method="post" enctype ="text/plain">
+      <table>
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" name="Your name "></td>
+        </tr>
+        <br><br><br>
+        <tr>
+            <td>Gender:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td>Reason: </td>
+            <td>
+                <textarea name="Message"   cols="30" rows="10"></textarea>
+            </td>
+            <!--
+                <td><input type="text" name="Message "> </td>
+                name in the input prints the data that you posted in your form to the mail
+            -->
+        </tr>
+      </table>
+      <input type="submit">
+    </form>
+  </body>
+</html>
